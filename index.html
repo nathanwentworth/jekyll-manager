@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title data-site-name>Hello World!</title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+
+    <header>
+      <h1 data-site-name>Jekyll Editor</h1>
+      <nav>
+
+      </nav>
+    </header>
+    <aside>
+      <div class="accordion">
+        <button data-btn-accordion class="section-header">Settings</button>
+        <section>
+          <button class="hidden" data-btn-open-directory>Open new Jekyll site</button>
+          <button data-btn-site-config>Site Config</button>
+        </section>
+      </div>
+
+      <div class="accordion">
+        <button data-btn-accordion class="section-header">Site Entries</button>
+        <section data-section-posts>
+        </section>
+      </div>
+    </aside>
+    <main>
+
+    </main>
+
+    <script>
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
